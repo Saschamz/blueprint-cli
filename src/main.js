@@ -30,7 +30,7 @@ export async function copyTemplate({
   template_rename,
   copy_path_affix
 }) {
-  const templatePath = process.cwd() + '/templates/' + template_name
+  const templatePath = process.cwd() + '/blueprints/' + template_name
   const copyPath = process.cwd() + '/' + copy_path_affix + '/' + template_rename
   await copy(templatePath, copyPath, { clobber: false })
   return copyPath

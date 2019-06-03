@@ -1,5 +1,5 @@
 {
-  "name": "blueprint-cli",
+  "name": "bp-cli",
   "version": "1.0.0",
   "description": "Node CLI for creating templates",
   "main": "bin/blueprint-cli",
@@ -8,9 +8,11 @@
   },
   "bin": {
     "blueprint-cli": "bin/bp",
+    "bp-cli": "bin/bp",
     "bp": "bin/bp",
     "@saschamz/blueprint-cli": "bin/bp",
-    "@saschamz/bp": "bin/bp"
+    "@saschamz/bp": "bin/bp",
+    "@saschamz/bp-cli": "bin/bp"
   },
   "homepage": "https://github.com/Saschamz/blueprint-cli",
   "author": "Sascha Ringström",
